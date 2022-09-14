@@ -1,0 +1,170 @@
+/* Poppins 400 */
+/* Poppins 500 */
+/* Poppins 600 */
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #8f95a5;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.list {
+  list-style: none;
+}
+
+/* Section Header */
+.header {
+}
+.header-logo,
+.footer-logo {
+  font-size: 36px;
+  color: #000000;
+  text-decoration: none;
+}
+.header-logo-decoration,
+.footer-logo-decoration {
+  color: #939393;
+}
+.header-list {
+}
+.header-list-item {
+  font-weight: 500;
+  font-size: 20px;
+  color: #263238;
+  text-decoration: none;
+}
+.header-button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: inherit;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+/* Section Hero */
+.hero {
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color: #000000;
+}
+.hero-text {
+  font-size: 24px;
+}
+.hero-button {
+  background: #263238;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+/* Section Skills */
+.skills {
+}
+.skills-title {
+  font-weight: 600;
+  font-size: 48px;
+  color: #000000;
+}
+.skills-list {
+}
+.list {
+}
+.skills-list-item {
+}
+.skills-item-title {
+  font-weight: 600;
+  font-size: 30px;
+  color: #263238;
+}
+.skills-item-text {
+}
+.skills-item-button {
+  background: #263238;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: inherit;
+  color: #ffffff;
+}
+
+/* Section About us */
+.about {
+}
+.about-title {
+  font-weight: 600;
+  font-size: 48px;
+  color: #000000;
+}
+.about-text {
+  font-size: 20px;
+  line-height: 1.8;
+}
+.about-list {
+}
+.about-list-decoration {
+  font-size: 48px;
+  font-weight: 600;
+  color: #2a3246;
+}
+.about-list-text {
+  font-size: 20px;
+}
+
+/* Section pricing */
+.pricing {
+}
+.pricing-title {
+  font-weight: 600;
+  font-size: 48px;
+  color: #000000;
+}
+.pricing-list {
+}
+
+.pricing-item-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  color: #263238;
+}
+.pricing-item-text {
+  font-size: 20px;
+}
+.pricing-value-text {
+  font-size: 18px;
+  color: #546269;
+}
+.pricing-value {
+  font-size: 24px;
+  color: #263238;
+}
+
+/* Section Contact us */
+.contact {
+}
+.contact-title {
+  font-weight: 600;
+  font-size: 48px;
+  color: #000000;
+}
+.contact-text {
+  font-size: 20px;
+}
+
+/* Section footer */
+.footer {
+}
+.footer-item {
+  text-decoration: none;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #8f95a5;
+}
