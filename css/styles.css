@@ -1,12 +1,18 @@
 /* Poppins 400 */
 /* Poppins 500 */
 /* Poppins 600 */
+:root {
+  --primary-section-color: #000000;
+  --primary-paragraph-color: #8f95a5;
+  --btn-text-color: #ffffff;
+  --nav-text-color: #263238;
+  --default-line-height: 1.5;
+}
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #8f95a5;
+  color: var(--primary-paragraph-color);
   font-size: 16px;
-  line-height: 1.5;
 }
 .list {
   list-style: none;
@@ -18,7 +24,8 @@ body {
 .header-logo,
 .footer-logo {
   font-size: 36px;
-  color: #000000;
+  line-height: var(--default-line-height);
+  color: var(--primary-section-color);
   text-decoration: none;
 }
 .header-logo-decoration,
@@ -30,16 +37,17 @@ body {
 .header-list-item {
   font-weight: 500;
   font-size: 20px;
-  color: #263238;
+  line-height: var(--default-line-height);
+  color: var(--nav-text-color);
   text-decoration: none;
 }
 .header-button {
   font-family: inherit;
   font-size: 20px;
-  line-height: inherit;
+  line-height: var(--default-line-height);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--primary-section-color);
 }
 
 /* Section Hero */
@@ -49,19 +57,21 @@ body {
   font-weight: 600;
   font-size: 64px;
   line-height: 1.25;
-  color: #000000;
+  color: var(--primary-section-color);
 }
 .hero-text {
   font-size: 24px;
+  line-height: var(--default-line-height);
 }
 .hero-button {
-  background: #263238;
+  background: var(--nav-text-color);
   border-radius: 10px;
   font-family: inherit;
   font-size: 36px;
+  line-height: var(--default-line-height);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--btn-text-color);
 }
 
 /* Section Skills */
@@ -70,28 +80,29 @@ body {
 .skills-title {
   font-weight: 600;
   font-size: 48px;
-  color: #000000;
+  line-height: var(--default-line-height);
+  color: var(--primary-section-color);
 }
 .skills-list {
-}
-.list {
 }
 .skills-list-item {
 }
 .skills-item-title {
   font-weight: 600;
   font-size: 30px;
-  color: #263238;
+  line-height: var(--default-line-height);
+  color: var(--nav-text-color);
 }
 .skills-item-text {
+  line-height: var(--default-line-height);
 }
 .skills-item-button {
-  background: #263238;
+  background: var(--nav-text-color);
   border-radius: 10px;
   font-weight: 500;
   font-size: 20px;
-  line-height: inherit;
-  color: #ffffff;
+  line-height: var(--default-line-height);
+  color: var(--btn-text-color);
 }
 
 /* Section About us */
@@ -100,7 +111,8 @@ body {
 .about-title {
   font-weight: 600;
   font-size: 48px;
-  color: #000000;
+  line-height: var(--default-line-height);
+  color: var(--primary-section-color);
 }
 .about-text {
   font-size: 20px;
@@ -111,10 +123,12 @@ body {
 .about-list-decoration {
   font-size: 48px;
   font-weight: 600;
+  line-height: var(--default-line-height);
   color: #2a3246;
 }
 .about-list-text {
   font-size: 20px;
+  line-height: var(--default-line-height);
 }
 
 /* Section pricing */
@@ -123,7 +137,8 @@ body {
 .pricing-title {
   font-weight: 600;
   font-size: 48px;
-  color: #000000;
+  line-height: var(--default-line-height);
+  color: var(--primary-section-color);
 }
 .pricing-list {
 }
@@ -133,18 +148,21 @@ body {
   font-size: 30px;
   line-height: 1.6;
   text-transform: capitalize;
-  color: #263238;
+  color: var(--nav-text-color);
 }
 .pricing-item-text {
   font-size: 20px;
+  line-height: var(--default-line-height);
 }
 .pricing-value-text {
   font-size: 18px;
+  line-height: var(--default-line-height);
   color: #546269;
 }
 .pricing-value {
   font-size: 24px;
-  color: #263238;
+  color: var(--nav-text-color);
+  line-height: var(--default-line-height);
 }
 
 /* Section Contact us */
@@ -153,10 +171,12 @@ body {
 .contact-title {
   font-weight: 600;
   font-size: 48px;
-  color: #000000;
+  line-height: var(--default-line-height);
+  color: var(--primary-section-color);
 }
 .contact-text {
   font-size: 20px;
+  line-height: var(--default-line-height);
 }
 
 /* Section footer */
@@ -165,6 +185,7 @@ body {
 .footer-item {
   text-decoration: none;
   font-size: 24px;
+  line-height: var(--default-line-height);
   letter-spacing: 0.02em;
-  color: #8f95a5;
+  color: inherit;
 }
