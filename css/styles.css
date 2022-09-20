@@ -20,6 +20,7 @@ body {
 
 /* Section Header */
 .header {
+  background-color: #ccc;
 }
 .header-logo,
 .footer-logo {
@@ -42,12 +43,23 @@ body {
   text-decoration: none;
 }
 .header-button {
+  min-width: 312px;
+  border: 2px solid var(--nav-text-color);
+  border-radius: 10px;
+  padding: 20px 56px;
   font-family: inherit;
   font-size: 20px;
   line-height: var(--default-line-height);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-section-color);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1338px;
+  outline: 2px solid tomato;
 }
 
 /* Section Hero */
