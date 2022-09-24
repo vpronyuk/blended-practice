@@ -20,7 +20,11 @@ body {
 
 /* Section Header */
 .header {
-  background-color: #ccc;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 .header-logo,
 .footer-logo {
@@ -34,6 +38,7 @@ body {
   color: #939393;
 }
 .header-list {
+  display: flex;
 }
 .header-list-item {
   font-weight: 500;
