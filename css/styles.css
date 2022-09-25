@@ -18,8 +18,17 @@ body {
   list-style: none;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1368px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
 /* Section Header */
 .header {
+  /* align-items: center; */
 }
 
 .header-nav {
@@ -28,6 +37,9 @@ body {
 }
 .header-logo,
 .footer-logo {
+  margin-right: 236px;
+  padding-top: 63px;
+  padding-bottom: 63px;
   font-size: 36px;
   line-height: var(--default-line-height);
   color: var(--primary-section-color);
@@ -37,9 +49,21 @@ body {
 .footer-logo-decoration {
   color: #939393;
 }
-.header-list {
+
+.header-container {
   display: flex;
 }
+
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
+.header-list-link {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
 .header-list-item {
   font-weight: 500;
   font-size: 20px;
@@ -48,38 +72,45 @@ body {
   text-decoration: none;
 }
 .header-button {
+  padding: 20px 56px;
   min-width: 312px;
   border: 2px solid var(--nav-text-color);
   border-radius: 10px;
-  padding: 20px 56px;
   font-family: inherit;
   font-size: 20px;
   line-height: var(--default-line-height);
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-section-color);
 }
 
-.container {
+.header-btn {
   margin-left: auto;
-  margin-right: auto;
-  width: 1338px;
-  outline: 2px solid tomato;
+  padding-top: 55px;
 }
 
 /* Section Hero */
 .hero {
+  padding-bottom: 90px;
 }
 .hero-title {
+  margin-bottom: 40px;
+  max-width: 386px;
   font-weight: 600;
   font-size: 64px;
   line-height: 1.25;
   color: var(--primary-section-color);
 }
 .hero-text {
+  margin-bottom: 60px;
+  max-width: 500px;
   font-size: 24px;
   line-height: var(--default-line-height);
 }
+
+.img-container {
+  margin-left: 144px;
+}
+
 .hero-button {
   background: var(--nav-text-color);
   border-radius: 10px;
@@ -91,8 +122,14 @@ body {
   color: var(--btn-text-color);
 }
 
+.hero-content {
+  display: flex;
+}
+
 /* Section Skills */
 .skills {
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 .skills-title {
   font-weight: 600;
@@ -124,6 +161,8 @@ body {
 
 /* Section About us */
 .about {
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 .about-title {
   font-weight: 600;
@@ -150,6 +189,8 @@ body {
 
 /* Section pricing */
 .pricing {
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 .pricing-title {
   font-weight: 600;
@@ -184,6 +225,8 @@ body {
 
 /* Section Contact us */
 .contact {
+  padding-top: 90px;
+  padding-bottom: 55px;
 }
 .contact-title {
   font-weight: 600;
