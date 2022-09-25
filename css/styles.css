@@ -20,9 +20,9 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1368px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1378px;
+  padding-left: 20px;
+  padding-right: 20px;
   outline: 2px solid tomato;
 }
 
@@ -85,14 +85,29 @@ body {
 
 .header-btn {
   margin-left: auto;
-  padding-top: 55px;
+  /* padding-top: 55px; */
 }
 
-/* Section Hero */
+/* --------Section Hero-------- */
+
+.hero-content {
+  display: flex;
+  gap: 144px;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+
+  width: 540px;
+}
+
 .hero {
+  padding-top: 55px;
   padding-bottom: 90px;
 }
 .hero-title {
+  margin-right: 34px;
   margin-bottom: 40px;
   max-width: 386px;
   font-weight: 600;
@@ -107,11 +122,14 @@ body {
   line-height: var(--default-line-height);
 }
 
+/* !!!Change to flex-basis!!! */
 .img-container {
-  margin-left: 144px;
+  width: 654px;
 }
 
 .hero-button {
+  padding: 23px 64px;
+
   background: var(--nav-text-color);
   border-radius: 10px;
   font-family: inherit;
@@ -120,10 +138,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--btn-text-color);
-}
-
-.hero-content {
-  display: flex;
+  cursor: pointer;
 }
 
 /* Section Skills */
@@ -138,9 +153,31 @@ body {
   color: var(--primary-section-color);
 }
 .skills-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
-.skills-list-item {
+
+.skills-list-speaking {
+  grid-area: 1 / 1 / 3 / 2;
 }
+
+.skills-list-writing {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.skills-list-reading {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.skills-list-listening {
+  display: flex;
+  flex-direction: row-reverse;
+  grid-area: 2 / 2 / 3 / 4;
+}
+
 .skills-item-title {
   font-weight: 600;
   font-size: 30px;
