@@ -79,7 +79,7 @@ body {
   font-size: 20px;
   line-height: var(--default-line-height);
   letter-spacing: 0.03em;
-  color: var(--primary-section-color);
+  /* color: var(--primary-section-color); */
 }
 
 .header-btn {
