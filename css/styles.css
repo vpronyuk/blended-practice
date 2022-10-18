@@ -230,9 +230,14 @@ body {
 
 /* Section About us */
 .about {
-  /* padding-top: 90px;
-  padding-bottom: 90px; */
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
+
+.about-container {
+  display: flex;
+}
+
 .about-title {
   font-weight: 600;
   font-size: 48px;
@@ -260,18 +265,26 @@ body {
 
 /* Section pricing */
 .pricing {
-  /* padding-top: 90px; */
+  padding-top: 90px;
   padding-bottom: 90px;
 }
 .pricing-title {
+  margin-bottom: 60px;
   font-weight: 600;
   font-size: 48px;
   line-height: var(--default-line-height);
   color: var(--primary-section-color);
+  text-align: center;
 }
 
-/* .pricing-list {
-} */
+.pricing-list {
+  display: flex;
+  gap: 30px;
+}
+
+.pricing-list-item {
+  width: 426px;
+}
 
 .pricing-item-title {
   font-weight: 600;
@@ -288,6 +301,7 @@ body {
   font-size: 18px;
   line-height: var(--default-line-height);
   color: #546269;
+  background-color: #eeeeee;
 }
 .pricing-value {
   font-size: 24px;
@@ -327,19 +341,19 @@ body {
   position: relative;
 }
 
+.contact-form-input {
+  padding: 20px 30px;
+  /* width: 425px; */
+  border: 1px solid var(--primary-paragraph-color);
+  border-radius: 10px;
+}
+
 .contact-form-label {
   position: absolute;
   top: 50%;
   left: 30px;
   transform: translateY(-50%);
   line-height: 1.87;
-}
-
-.contact-form-input {
-  padding: 20px 30px;
-  /* width: 425px; - think about width..*/
-  border: 1px solid var(--primary-paragraph-color);
-  border-radius: 10px;
 }
 
 .contact-form-input:focus + .contact-form-label,
